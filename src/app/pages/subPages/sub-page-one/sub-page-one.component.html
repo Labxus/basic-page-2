@@ -1,0 +1,45 @@
+<!-- start section learn more -->
+<div class="w-full h-[35rem] flex flex-col justify-center items-center bg-cover bg-center gap-10 md:items-start bg-gray-700">
+
+  <div class="md:w-96 flex flex-col justify-center items-center lg:w-[30rem] lg:ml-10">
+      <p class="text-white font-bold text-3xl text-center lg:text-4xl"> {{ infoSubPageOne?.learnMore?.title }} </p>
+      <a class="px-20 py-3 text-xs bg-primerColor rounded-full text-white mx-auto transition ease-in-out hover:bg-transparent hover:text-[#203F71] hover:border hover:border-[#1CB9C8] my-10 lg:text-3xl" href=""> {{ infoSubPageOne?.learnMore?.textBtn}} </a>
+  </div>
+
+</div>
+<!-- end section learn more -->
+
+
+<!-- start section Devoluvion Saldos info  -->
+
+<text-info [infoTextInfo]="infoSubPageOne?.devoluvionSaldosInfo"></text-info>
+
+<!-- end section  Devoluvion Saldos info -->
+
+
+<!-- start section who has law -->
+
+<info-img-btn [infoImgBtn]="infoSubPageOne?.whoHasLaw"></info-img-btn>
+
+<!-- end section who has law -->
+
+
+<!-- start section because you chose us -->
+
+<info-img-graph [infoImgGraph]="infoSubPageOne?.becauseYouChoseUs"></info-img-graph>
+
+<!-- end section because you chose us -->
+
+
+<!-- start section devoluvion DIAN-->
+
+<info-text-from-card [intoTextFromCard]="infoSubPageOne?.devolucionDian"></info-text-from-card>
+
+<!-- end section devoluvion DIAN-->
+
+
+<!-- start section handle other services-->
+
+<cards-services [infoCardServices]="infoSubPageOne?.handleOtherServices"></cards-services>
+
+<!-- end section handle other services -->

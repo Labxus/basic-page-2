@@ -1,0 +1,23 @@
+<div class="container mx-auto w-full flex flex-col h-auto gap-10 mb-10 py-10">
+  <h3  class="font-bold text-4xl text-titleColor text-center md:text-5xl">{{ infoChordionFrom?.title }}</h3>
+
+  <div class="w-full h-auto flex flex-col justify-center items-center gap-10 lg:flex-row lg:justify-evenly lg:items-start">
+      <div class="w-full h-auto flex flex-col gap-10 justify-center items-center">
+
+        <chordion class="chordion w-72 min-h-[4rem] shadow-xl rounded-xl transition ease-in-out duration-300 p-5 md:w-[30rem]"
+          *ngFor="let chordion of infoChordionFrom?.questions"
+          [titleChordion]="chordion.title"
+          [paragraphChordion]="chordion.paragraph">
+        </chordion>
+
+      </div>
+
+      <div class="w-full h-auto">
+
+        <from-chordion></from-chordion>
+
+      </div>
+  </div>
+
+
+</div>

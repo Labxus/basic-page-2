@@ -1,0 +1,73 @@
+<header class="w-[100%] z-50 h-auto flex flex-col justify-center items-center bg-bgPrimerColor opacity-90 text-secondaryColor px-5   md:fixed md:flex-row md:gap-10 md:justify-evenly lg:justify-between">
+
+  <a href="/">
+      <div class="w-36 h-auto flex justify-center mt-3 items-center md:ml-20">
+          <img class="w-20 h-auto md:w-50 md:my-4 lg:h-auto " src="" alt="">
+          <h2 class="md:block text-4xl font-bold ml-3 text-white"> {{ info.InfoNavbar?.titleNavbar }} </h2>
+      </div>
+  </a>
+
+  <div class="relative flex flex-col w-full h-20 z-50 justify-between items-center md:justify-evenly md:w-[26rem] lg:mr-10">
+
+      <div class="w-screen h-auto justify-start items-center hidden pb-5 px-9 bg-gray-700 md:flex translate-y-20  md:flex-row md:translate-y-0 md:w-full md:bg-transparent md:p-0 lg:w-[25rem] md:justify-end text-white">
+        <ul class=" flex flex-col gap-5 md:flex-row mt-5 md:mt-0 lg:gap-4 z-51">
+          <li
+            *ngFor="let link of info.InfoNavbar?.datosNav"
+            class="hoverServices">
+            <a class="transition hover:text-[#1CB9C8]"
+              [routerLink]="[link.link]" >
+              {{ link.title }}
+            </a>
+
+            <div class=" contServices max-md:w-full max-md:h-auto md:-translate-x-16 max-md:mt-4"
+            *ngIf="link.subMenu">
+              <ul
+                *ngFor="let subLink of link.subMenu">
+                <li class="w-full h-10  text-white flex justify-start items-center mx-3 my-5 max-md:m-5 md:justify-center">
+                  <a class="transition hover:text-[#1CB9C8]" [routerLink]="[subLink.link]">{{ subLink.title }}</a>
+                </li>
+              </ul>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex w-full h-auto justify-between items-center md:hidden text-white">
+          <div id="menuNav" class="w-10 h-10 flex items-center gap-3 py-10">
+              <i class="ti ti-menu-2 text-2xl"></i>
+              <button (click)="onDisplayLinks()">MENU</button>
+          </div>
+          <div class="w-10 h-auto">
+              <i class="ti ti-search text-2xl"></i>
+          </div>
+      </div>
+
+      <div *ngIf="onLinks" class="absolute w-screen h-auto justify-start items-center z-50 pb-5 px-3 md:hidden bg-primaryContrast  translate-y-20  bg-bgPrimerColor text-white">
+        <ul class=" flex flex-col gap-5 md:flex-row mt-5 md:mt-0 lg:gap-4 z-51">
+          <li
+            *ngFor="let link of info.InfoNavbar?.datosNav"
+            class="hoverServices"
+            (click)="onDisplaySubLinks()">
+            <a class="subMenu transition hover:text-[#1CB9C8]"
+              [routerLink]="[link.link]">
+              {{ link.title }}
+            </a>
+
+            <div class=" contServices max-md:w-full max-md:h-auto md:-translate-x-16 max-md:mt-4"
+            *ngIf="onSubLinks">
+              <ul
+                *ngFor="let subLink of link.subMenu">
+                <li class="w-full h-10  text-white flex justify-start items-center mx-3 my-5 max-md:m-5 md:justify-center">
+                  <a class="transition hover:text-[#1CB9C8]" [routerLink]="[subLink.link]">{{ subLink.title }}</a>
+                </li>
+              </ul>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+
+  </div>
+
+</header>

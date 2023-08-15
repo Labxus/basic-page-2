@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  .contServices{
+      position: absolute;
+      width: 16rem;
+      height: auto;
+      padding-top: 28px;
+      background-color: rgb(55 65 81);
+      display: none;
+      transition: all .3s;
+      border-radius: 0 0 10px 10px;
+  }
+
+  .hoverServices{
+      position: relative;
+  }
+
+  .hoverServices:hover > .contServices{
+      display: block;
+  }
+}
+

@@ -1,0 +1,25 @@
+
+<div class= "w-full h-auto flex flex-wrap justify-center items-center p-2 mb-10 gap-10">
+
+  <div class="w-10/12 h-80 hidden md:block md:w-96 md:h-auto lg:w-[35rem] y ">
+      <img class="w-full h-full object-cover object-top rounded-xl" [src]="'assets/'+infoImgGraph?.imageUrl" alt="">
+  </div>
+
+  <div class="flex w-full h-auto flex-col items-center justify-center p-5 gap-10  md:w-full md:p-10 lg:w-[40rem] ">
+      <h3 class="font-bold text-4xl text-titleColor text-center md:text-5xl"> {{ infoImgGraph?.title }} </h3>
+      <p class="text-xl text-justify"> {{ infoImgGraph?.paragraph }} </p>
+
+      <div class="w-full">
+          <p class="text-center font-bold text-titleColor mb-10 md:text-5xl"> {{ infoImgGraph?.supParagraph }} </p>
+
+          <shared-graph class="w-full h-auto mb-5 md:w-[35rem]"
+            *ngFor="let percent of infoImgGraph?.percentages"
+            [name]="percent.name"
+            [percent]="percent.percent">
+          </shared-graph>
+
+      </div>
+
+  </div>
+
+</div>

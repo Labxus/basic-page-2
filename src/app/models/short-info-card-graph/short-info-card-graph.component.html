@@ -1,0 +1,19 @@
+<div class="container mx-auto w-full h-auto flex flex-col flex-wrap  justify-evenly items-center mb-10 gap-10 lg:flex-row">
+
+  <shared-short-card class="w-[90%] flex flex-col justify-center items-center bg-gray-100 h-80 rounded-2xl p-2 shadow-xl md:w-[38rem] lg:w-[32rem]"
+    *ngFor="let infoCard of infoShortInfoCardGraph?.infoCard"
+    [titleShortCard]="infoCard.title"
+    [paragraphShortCard]="infoCard.paragraph">
+  </shared-short-card>
+
+  <div class="w-72 flex flex-col justify-center items-center bg-gray-100 h-80 rounded-2xl p-5 shadow-xl md:w-[38rem]">
+
+    <shared-graph class="w-full h-auto mb-5 md:w-[35rem]"
+      *ngFor="let info of infoShortInfoCardGraph?.infoGraph"
+      [name]="info.name"
+      [percent]="info.percent">
+    </shared-graph>
+
+  </div>
+
+</div>

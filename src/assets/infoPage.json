@@ -1,0 +1,335 @@
+{
+"infoIndex" : {
+    "infoLeyes" : [
+        {
+            "title" : "Lorem ipsum dolor sit amet.",
+            "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum."
+        },
+        {
+            "title" : "Lorem ipsum dolor sit amet.",
+            "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum."
+        },
+        {
+            "title" : "Lorem ipsum dolor sit amet.",
+            "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum."
+        }
+    ],
+    "infoServices" : {
+      "infoImgBtn" :  {
+        "title" : "Lorem ipsum dolor sit amet.",
+        "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+        "textBtn" : "MÁS INFORMACIÓN",
+        "imageUrl" : "Estrategia-Generica.jpg"
+      },
+      "infoImgGraph" : {
+        "title" : "Lorem ipsum dolor sit amet.",
+        "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+        "imageUrl" : "Estrategia-Generica.jpg",
+        "imgRight" : true ,
+        "percentages" : [
+
+            {
+                "name":"lorem",
+                "percent": "90"
+            },
+            {
+                "name":"lorem",
+                "percent": "90"
+            },
+            {
+                "name":"lorem",
+                "percent": "90"
+            }
+
+        ]
+      }
+
+    },
+    "handleServices" :{
+        "title" : "LLorem ipsum dolor sit amet." ,
+        "supParagraph" : "Lorem ipsum dolor sit amet..",
+        "services" : [
+            {
+                "iconsUrl" : "icon.png",
+                "linkPage" : "#",
+                "paragraph" : "Lorem ipsum dolor sit amet."
+            },
+            {
+                "iconsUrl" : "icon.png",
+                "linkPage" : "#",
+                "paragraph" : "Lorem ipsum dolor sit amet."
+            },
+            {
+                "iconsUrl" : "icon.png",
+                "linkPage" : "#",
+                "paragraph" : "Lorem ipsum dolor sit amet."
+            }
+        ]
+
+    },
+    "servicesOffer" : [
+        {
+            "cantServices" : "0000",
+            "topicServices" : "LOREM LOREM"
+        },
+        {
+            "cantServices" : "0000",
+            "topicServices" : "LOREM LOREM"
+        },
+        {
+            "cantServices" : "0000",
+            "topicServices" : "LOREM LOREM"
+        },
+        {
+            "cantServices" : "0000",
+            "topicServices" : "LOREM LOREM"
+        }
+    ]
+},
+"infoNosotros" : {
+    "titleNosotros" : {
+        "title" : "LOREM"
+    },
+    "whoWeAre" : {
+        "title": "Lorem ipsum dolor sit amet.",
+        "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+        "imageUrl" : "Estrategia-Generica.jpg"
+    },
+    "ourHistory" : {
+        "title": "Lorem ipsum dolor sit amet.",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+        "textBtn" : "CONOCE MÁS",
+        "imageUrl" : "Estrategia-Generica.jpg",
+        "imgRight" : true
+    },
+    "visionMision" : {
+        "infoCard" : [
+            {
+                "title" : "Lorem ipsum " ,
+                "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores adipisci veniam aspernatur minus vitae. Et, totam atque adipisci perspiciatis aperiam laboriosam recusandae,."
+            },
+            {
+                "title" : "Nuestra Visión",
+                "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores adipisci veniam aspernatur minus vitae. Et, totam atque adipisci perspiciatis aperiam laboriosam recusandae,."
+            }
+        ],
+        "infoGraph": [
+            {
+                "name": "LOREM LOREM",
+                "percent" : "90"
+            },
+            {
+                "name": "LOREM LOREM",
+                "percent" : "90"
+            },
+            {
+                "name": "LOREM LOREM",
+                "percent" : "90"
+            }
+        ]
+    },
+    "frequentlyQuestions" : {
+        "title" : "LOREM LOREM",
+        "questions" : [
+            {
+                "title": "Lorem ipsum dolor sit amet.",
+                "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+                "idChordion" : 1
+            },
+            {
+                "title": "Lorem ipsum dolor sit amet.",
+                "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+                "idChordion" : 2
+            },
+            {
+                "title": "Lorem ipsum dolor sit amet.",
+                "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+                "idChordion" : 3
+            },
+            {
+                "title": "Lorem ipsum dolor sit amet.",
+                "paragraph" : "ELorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+                "idChordion" : 4
+            }
+        ]
+    }
+},
+"infoContacto" : {
+    "titleContacto" : {
+        "title" : "LOREM"
+    },
+    "infoCards" : [
+        {
+            "infoUno" : "+(99) 999 999 9999",
+            "infoDos" : "+(99) 999 999 9999"
+        },
+        {
+            "infoUno" : "Lorem ipsum dolor sit amet.",
+            "infoDos" : "Lorem ipsum dolor sit amet."
+        },
+        {
+            "infoUno" : "Lorem ipsum dolor sit amet.",
+            "infoDos" : "Lorem ipsum dolor sit amet."
+        }
+    ],
+    "form" : {
+        "title" : "LOREM",
+        "supParagraph" : "Lorem ipsum dolor sit amet.",
+        "titleFrom" : "Lorem ipsum dolor sit amet.",
+        "placeholderFrom" : {
+          "placeholderOne" : "Razón social",
+          "placeholderTwo" : "Contacto Nombre y Apellido",
+          "placeholderThree" : "Numero celular",
+          "placeholderFour" : "Correo electronico"
+        }
+    }
+},
+"infoServicios" : {
+
+    "recuperacionSaldoFavor": {
+        "learnMore" : {
+            "title" : "Lorem ipsum dolor sit amet.",
+            "textBtn" : "CONOCE MÁS"
+        },
+        "devoluvionSaldosInfo": {
+            "title" : "Lorem ipsum dolor sit amet.",
+            "paragraphOne" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum..",
+            "paragraphTwo" :  "ULorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+            "paragraphimportant" :  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+            "supParagraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+            "imageUrl" : "Estrategia-Generica.jpg",
+            "textBtn" : "CONOCE MÁS"
+
+        },
+        "whoHasLaw" : {
+            "title" : "¿Lorem ipsum dolor sit amet.",
+            "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+            "textBtn" : "CONOCE MÁS",
+            "suptext" : "LOREM LOREM",
+            "imageUrl" : "Estrategia-Generica.jpg",
+            "imgRight" : true
+        },
+        "becauseYouChoseUs" :{
+            "title" : "LOREM LOREM",
+            "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+            "supParagraph" : "LOREM LOREM",
+            "imageUrl" : "Estrategia-Generica.jpg",
+            "imgRight" : true,
+            "percentages" : [
+                {
+                    "name":"LOREM",
+                    "percent": "90"
+                },
+                {
+                    "name":"Conocimiento",
+                    "percent": "90"
+                },
+                {
+                    "name":"efectividad",
+                    "percent": "90"
+                }
+            ]
+        },
+        "devolucionDian" : {
+            "title" : "Lorem ipsum dolor sit amet.",
+            "paragraphOne" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "paragraphTwo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat",
+            "infoFrom" : {
+              "titleFrom" : "SLorem ipsum dolor sit amet.",
+              "supParagraph" : "Lorem ipsum dolor sit amet.",
+              "placeholderFrom" : {
+                "placeholderOne" : "Razón social",
+                "placeholderTwo" : "Contacto Nombre y Apellido",
+                "placeholderThree" : "Numero celular",
+                "placeholderFour" : "Correo electronico"
+              }
+            },
+            "infoCards" : [
+                {
+                    "infoUno" : "LOREM",
+                    "infoDos" : "1"
+                },
+                {
+                    "infoUno" : "LOREM LOREM",
+                    "infoDos" :"2"
+                },
+                {
+                    "infoUno" : "Lorem ipsum dolor sit amet.",
+                    "infoDos" : "3"
+                },
+                {
+                    "infoUno" :  "Lorem ipsum dolor sit amet.",
+                    "infoDos" : "4"
+                }
+            ]
+        },
+        "handleOtherServices" : {
+            "title" : "LOREM LOREM",
+            "supParagraph" : "LOREM LOREM",
+            "services" : [
+                {
+                    "iconsUrl" : "icon.png",
+                    "linkPage" : "#",
+                    "paragraph" : "Lorem ipsum dolor sit amet."
+                },
+                {
+                    "iconsUrl" : "icon.png",
+                    "linkPage" : "#",
+                    "paragraph" : "Lorem ipsum dolor sit amet."
+                }
+            ]
+        }
+    },
+    "facilidadesAcuedosPagos" : {
+        "paragraph" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum..",
+        "link" : ""
+    },
+    "optimizacionPlanacionTributaria": {
+        "title" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis perferendis officiis similique doloribus reiciendis possimus ipsum at facilis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, minus fugiat. Libero asperiores assumenda rerum voluptates itaque placeat saepe eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae accusamus dicta aspernatur minima laudantium est neque repellendus omnis eum.",
+        "link" : ""
+    }
+
+},
+"InfoNavbar" :{
+  "titleNavbar" : "LOREM",
+  "datosNav" : [
+    {
+      "title" : "INICIO OFICIAL",
+      "link" : ""
+  },
+  {
+      "title" : "NOSOTROS",
+      "link" : "nosotros"
+  },
+  {
+      "title" : "SERVICIOS",
+      "link" : "#",
+      "subMenu" : [
+          {
+              "title" : "subPageOne",
+              "link" : "/servicios/subpageone"
+          },
+          {
+              "title" : "subPageTwo",
+              "link" : "/servicios/subpagetwo"
+          },
+          {
+              "title": "subPageThree",
+              "link" : "/servicios/subpagethree"
+          }
+      ]
+  },
+  {
+      "title": "CONTACTO",
+      "link" : "contacto"
+  }
+  ]
+},
+"InfoFooter" :{
+  "paragraphOne": "Lorem ipsum dolor sit amet",
+  "paragraphTwo": "Lorem ipsum dolor sit amet",
+  "paragraphThree": "Lorem ipsum dolor"
+}
+
+}
+

@@ -1,0 +1,27 @@
+<div class="w-full h-auto flex flex-col justify-center items-center">
+  <div class="container mx-auto h-auto flex flex-wrap justify-center items-center lg:justify-evenly lg:items-start ">
+      <div class="w-full h-auto flex flex-col text-white gap-5 mb-5 md:w-[30rem]">
+
+        <title-card-info [infoTitle]="intoTextFromCard?.title"
+          [infoParagraphOne]="intoTextFromCard?.paragraphOne"
+          [infoParagraphTwo]="intoTextFromCard?.paragraphTwo">
+        </title-card-info>
+
+      </div>
+      <div class="lg:w-[30rem] lg:h-auto">
+
+        <shared-from [infoplaceholder]="intoTextFromCard?.infoFrom"></shared-from>
+
+      </div>
+  </div>
+
+  <div class="w-full h-auto bg-titleColor flex flex-col justify-center items-center md:flex-row md:flex-wrap md:gap-10">
+
+    <card-num-services class="relative w-44 h-40 flex flex-col justify-center items-center bg-white rounded-xl m-10 shadow-xl"
+      *ngFor="let card of intoTextFromCard?.infoCards"
+      [infoUno]="card.infoUno"
+      [infoDos]="card.infoDos">
+    </card-num-services>
+
+  </div>
+</div>
